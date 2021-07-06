@@ -1,0 +1,48 @@
+ERROR   2021-06-16 18:11:34,881 [http-nio-8084-exec-12] duylp.controllers.LoginController  - java.lang.ArithmeticException: / by zero
+ERROR   2021-06-16 18:14:58,806 [http-nio-8084-exec-22] duylp.controllers.LoginController  - java.lang.NullPointerException
+ERROR   2021-06-16 18:15:06,686 [http-nio-8084-exec-25] duylp.controllers.UpdateUserController  - java.lang.NullPointerException
+ERROR   2021-06-16 18:15:26,739 [http-nio-8084-exec-28] duylp.controllers.UpdateUserController  - java.lang.NullPointerException
+ERROR   2021-06-16 18:15:52,360 [http-nio-8084-exec-29] duylp.controllers.UpdateUserController  - java.lang.NullPointerException
+ERROR   2021-06-16 18:17:17,207 [http-nio-8084-exec-33] duylp.controllers.UpdateUserController  - java.lang.NullPointerException
+ERROR   2021-06-16 18:19:06,234 [http-nio-8084-exec-34] duylp.controllers.UpdateUserController  - java.lang.NullPointerException
+ERROR   2021-06-16 18:24:52,740 [http-nio-8084-exec-48] duylp.controllers.UpdateUserController  - java.lang.NullPointerException
+ERROR   2021-06-16 18:25:30,954 [http-nio-8084-exec-45] duylp.controllers.UpdateUserController  - java.lang.NullPointerException
+ERROR   2021-06-16 18:32:49,481 [http-nio-8084-exec-62] duylp.controllers.CreateUserController  - java.lang.NullPointerException
+ERROR   2021-06-16 18:42:15,724 [http-nio-8084-exec-63] duylp.controllers.UpdateUserController  - java.lang.NullPointerException
+ERROR   2021-06-16 19:01:38,734 [http-nio-8084-exec-85] duylp.controllers.UpdateUserController  - java.lang.NullPointerException
+ERROR   2021-06-16 19:02:05,076 [http-nio-8084-exec-96] duylp.controllers.UpdateUserController  - java.lang.NullPointerException
+ERROR   2021-06-16 19:06:15,512 [http-nio-8084-exec-93] duylp.controllers.UpdateUserController  - java.lang.NullPointerException
+ERROR   2021-06-16 23:11:18,923 [http-nio-8084-exec-195] duylp.controllers.UpdateUserController  - java.lang.NullPointerException
+ERROR   2021-06-16 23:19:04,062 [http-nio-8084-exec-198] duylp.controllers.UpdateUserController  - java.lang.NullPointerException
+ERROR   2021-06-16 23:19:10,130 [http-nio-8084-exec-200] duylp.controllers.UpdateUserController  - java.lang.NullPointerException
+ERROR   2021-06-16 23:22:46,799 [http-nio-8084-exec-209] duylp.controllers.UpdateUserController  - java.lang.NullPointerException
+ERROR   2021-06-16 23:23:58,836 [http-nio-8084-exec-217] duylp.controllers.UpdateUserController  - java.lang.NullPointerException
+ERROR   2021-06-16 23:24:03,210 [http-nio-8084-exec-198] duylp.controllers.UpdateUserController  - java.lang.NullPointerException
+ERROR   2021-06-17 01:22:15,060 [http-nio-8084-exec-27] duylp.controllers.UpdateUserController  - java.lang.NullPointerException
+ERROR   2021-06-17 01:22:20,459 [http-nio-8084-exec-22] duylp.controllers.UpdateUserController  - java.lang.NullPointerException
+ERROR   2021-06-17 01:26:01,583 [http-nio-8084-exec-51] duylp.controllers.UpdateUserController  - java.lang.NullPointerException
+ERROR   2021-06-17 01:49:43,035 [http-nio-8084-exec-52] duylp.controllers.UpdateUserController  - java.lang.NullPointerException
+ERROR   2021-06-17 23:41:58,288 [http-nio-8084-exec-93] duylp.controllers.LoginController  - java.lang.NullPointerException
+ERROR   2021-06-18 02:24:11,828 [http-nio-8084-exec-429] duylp.controllers.LoginController  - java.lang.NullPointerException
+ERROR   2021-06-18 02:24:14,973 [http-nio-8084-exec-430] duylp.controllers.LoginController  - java.lang.NullPointerException
+ERROR   2021-06-18 02:24:17,586 [http-nio-8084-exec-431] duylp.controllers.LoginController  - java.lang.NullPointerException
+ERROR   2021-06-18 02:24:30,690 [http-nio-8084-exec-426] duylp.controllers.LoginController  - java.lang.NullPointerException
+ERROR   2021-06-18 02:24:44,381 [http-nio-8084-exec-425] duylp.daos.UserDAO  - com.microsoft.sqlserver.jdbc.SQLServerException: The column name Role is not valid.
+ERROR   2021-06-18 02:24:48,453 [http-nio-8084-exec-420] duylp.daos.UserDAO  - com.microsoft.sqlserver.jdbc.SQLServerException: The column name Role is not valid.
+ERROR   2021-06-18 02:48:11,369 [http-nio-8084-exec-496] duylp.daos.UserDAO  - com.microsoft.sqlserver.jdbc.SQLServerException: Violation of PRIMARY KEY constraint 'PK__tblUsers__CB9A1CDF5107BE49'. Cannot insert duplicate key in object 'dbo.tblUsers'. The duplicate key value is (user).
+ERROR   2021-06-18 02:48:49,017 [http-nio-8084-exec-498] duylp.daos.UserDAO  - com.microsoft.sqlserver.jdbc.SQLServerException: Violation of PRIMARY KEY constraint 'PK__tblUsers__CB9A1CDF5107BE49'. Cannot insert duplicate key in object 'dbo.tblUsers'. The duplicate key value is (user2).
+ERROR   2021-06-18 02:52:40,865 [http-nio-8084-exec-501] duylp.daos.UserDAO  - com.microsoft.sqlserver.jdbc.SQLServerException: Violation of PRIMARY KEY constraint 'PK__tblUsers__CB9A1CDF5107BE49'. Cannot insert duplicate key in object 'dbo.tblUsers'. The duplicate key value is (user).
+ERROR   2021-06-18 14:40:58,421 [http-nio-8084-exec-31] duylp.controllers.LoginController  - java.lang.NullPointerException
+ERROR   2021-06-18 21:27:22,765 [http-nio-8084-exec-154] duylp.daos.UserDAO  - com.microsoft.sqlserver.jdbc.SQLServerException: Cannot insert the value NULL into column 'password', table 'LPD2.dbo.tblUsers'; column does not allow nulls. UPDATE fails.
+ERROR   2021-06-18 21:27:34,926 [http-nio-8084-exec-155] duylp.daos.UserDAO  - com.microsoft.sqlserver.jdbc.SQLServerException: Cannot insert the value NULL into column 'password', table 'LPD2.dbo.tblUsers'; column does not allow nulls. UPDATE fails.
+ERROR   2021-06-18 21:53:20,257 [http-nio-8084-exec-208] duylp.controllers.LoginController  - java.lang.NullPointerException
+ERROR   2021-06-18 21:53:27,510 [http-nio-8084-exec-195] duylp.controllers.LoginController  - java.lang.NullPointerException
+ERROR   2021-06-19 00:28:41,719 [http-nio-8084-exec-47] duylp.controllers.LoginController  - java.lang.NullPointerException
+ERROR   2021-06-19 00:29:01,859 [http-nio-8084-exec-58] duylp.controllers.LoginController  - java.lang.NullPointerException
+ERROR   2021-06-19 00:46:50,296 [http-nio-8084-exec-39] duylp.controllers.InsertRoleController  - java.lang.NullPointerException
+ERROR   2021-06-19 00:47:22,715 [http-nio-8084-exec-41] duylp.controllers.InsertRoleController  - java.lang.NullPointerException
+ERROR   2021-06-19 00:47:27,739 [http-nio-8084-exec-40] duylp.controllers.InsertRoleController  - java.lang.NullPointerException
+ERROR   2021-06-19 01:29:35,982 [http-nio-8084-exec-101] duylp.controllers.ChangePasswordController  - java.lang.NullPointerException
+ERROR   2021-06-19 01:32:57,206 [http-nio-8084-exec-97] duylp.controllers.ChangePasswordController  - java.lang.NullPointerException
+ERROR   2021-06-19 01:33:59,897 [http-nio-8084-exec-101] duylp.controllers.ChangePasswordController  - java.lang.NullPointerException
+ERROR   2021-06-22 07:20:29,020 [http-nio-8084-exec-14] duylp.controllers.LoginController  - java.lang.NullPointerException

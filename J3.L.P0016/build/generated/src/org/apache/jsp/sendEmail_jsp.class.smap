@@ -1,0 +1,12 @@
+SMAP
+sendEmail_jsp.java
+JSP
+*S JSP
+*F
++ 0 sendEmail.jsp
+sendEmail.jsp
+*L
+5,18:44
+23,2:62,3
+25,11:68
+*E
